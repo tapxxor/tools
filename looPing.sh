@@ -41,6 +41,6 @@ if [ $? -eq 0 ]; then
 	notify-send "LooPing" "$site is now reachable" --icon=dialog-information
 	exit 0
 else
-    notify-send "LooPing" "$site is not reachable. Try again!" --category=error --icon=dialog-error
+    	notify-send "LooPing" "$site is not reachable. Try again!" --category=error --icon=dialog-error
 	exit 1
 fi
