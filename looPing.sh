@@ -1,4 +1,17 @@
-#!/bin/bash
+#! /bin/bash
+
+# Short description: looPing pings in a loop a domain. if it is accessible 
+#                    a notification window informs about the success other-
+#                    wise a time out occurs after 30 minutes
+
+# Author: tapxxor <tapxxor@gmail.org>
+# 
+# Version History
+# Version   Date        User            Descrption        
+# R1A01     10182017    tapxxor         Script creation
+
+# uncomment the below line to debug the script
+# set -x
 
 function probe {
         sec="0"
