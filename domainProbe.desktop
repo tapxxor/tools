@@ -1,0 +1,7 @@
+[Desktop Entry]
+Categories=Application;
+Type=Application
+Name[en_US]=domainProbe
+Icon=language-selector
+Exec=bash -c /home/$USER/Desktop/tools/looPing.sh
+Terminal=false
