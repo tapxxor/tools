@@ -1,4 +1,5 @@
 # tools
 
-* __looPing__ : Double click on the launcher and enter your newly registered domain and wait until it is accessible.
-
+* __looPing__ : Double click on the launcher (domainProbe.launcher), enter your newly registered domain and wait until it is               
+                accessible.
+#
